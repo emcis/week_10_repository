@@ -1,0 +1,53 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project App</title>
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    </head> 
+      <body class ="container">
+       <br>
+       <div class = "card">
+           <div class = card-body>
+            <div class="row">
+              <div class = "col-sm">
+                <div class="form-group">
+               <label for="new-Project">Project</label>
+               <input type="text" class="form-control" id="new-Project" placeholder="Project">
+              </div>
+            </div>
+          </div>
+               <div class="row">
+                 <div class = "col-sm">
+                    <div class="form-group">
+                        <label for="Project-start-date">Project Start</label>
+                        <input type="date" class="form-control" id="Project-start-date">
+                    </div>
+                 </div>
+                 <div class = "col-sm">
+                  <div class="form-group">
+                    <label for="new-end-date">Project Finish Date</label>
+                    <input type="date" class="form-control" id="Project-end-date">
+                 </div>
+              </div>
+             </div>
+            <div>
+            <button id="add" class="btn btn-primary from-control">Create</button>
+           </div>
+        </div>  
+      </div>
+    <table id="list" class="table table-dark table-striped">
+        <tr>
+        <th>Project</th>>
+        <th>Date Scheduled</th>>
+        <th>Start Date</th>>
+        <th>Finish Date</th>>
+        <th>Action</th>>
+        </tr>
+    </table>
+        <script src="Front_End_Week_4_Homework_Form.js"></script>
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+    </body>
+</html>
